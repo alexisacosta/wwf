@@ -1,0 +1,28 @@
+{
+  "name": "wwf",
+  "version": "1.0.0",
+  "description": "Sistema de Control de WWF",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angular-animate": "^1.7.5",
+    "angular-aria": "^1.7.5",
+    "angular-material": "^1.1.10",
+    "angular-messages": "^1.7.5",
+    "angular-route": "^1.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexis Acosta",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisacosta/wwf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexisacosta/wwf/issues"
+  },
+  "homepage": "https://github.com/alexisacosta/wwf#readme"
+}
