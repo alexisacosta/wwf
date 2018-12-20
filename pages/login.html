@@ -1,0 +1,36 @@
+<div layout-padding class="genesis">
+	
+	<md-content flex="30" flex-offset="35">
+		<md-card flex="96" flex-offset="2">
+			<md-card-header>
+				<md-card-avatar>
+					<img src="image/wwf-512.png"/>
+				</md-card-avatar>
+				<md-card-header-text>
+					<span class="md-title">WWF</span>
+					<span class="md-subhead">Login</span>
+				</md-card-header-text>
+			</md-card-header>
+			<div layout="row" layout-align="center center">
+				<img src="image/wwf-512-2.png" class="md-card-image" alt="WWF" style="width: 30%;">
+			</div>
+			<md-card-content>
+				<md-input-container class="md-icon-float md-block">
+					<label>Identificacion</label>
+					<md-icon md-svg-src="image/icon_svg/user-regular.svg" class="name"></md-icon>
+		      		<input ng-model="user.name" type="text">
+				</md-input-container>
+				<md-input-container class="md-icon-float md-block">
+					<label>Password</label>
+		      		<md-icon md-svg-src="image/icon_svg/key-solid.svg"></md-icon>
+		      		<input ng-model="user.phone" type="text">
+		    	</md-input-container>
+		    	<div layout="row" layout-align="end">
+		    		<md-button class="md-raised md-primary">Ingresar</md-button>
+		    	</div>
+		    	<div layout="row" layout-align="center">
+		    		<md-button md-no-ink class="md-primary">Recuperar Password</md-button>
+		    	</div>
+			</md-card-content>
+		</md-card>
+	</md-content>

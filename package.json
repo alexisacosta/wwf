@@ -11,7 +11,9 @@
     "angular-messages": "^1.7.5",
     "angular-route": "^1.7.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
